@@ -1,7 +1,7 @@
 <?php
 $host= "localhost";
-$username= "root";
-$password= "sexymoi2580";
+$username= " ( *** ) ";
+$password= " ( *** ) ";
 $dbname= "test";
 $dsn= "mysql:host=$host;dbname=$dbname";
 $options= array(
@@ -10,3 +10,5 @@ $options= array(
 
 
 ?>
+
+( *** ) = take your account  ;)
