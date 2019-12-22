@@ -1,5 +1,7 @@
 <?php include "templates/header.php"; ?>
 
+
+
 <ul>
 	<li><a href="event.php"><strong>Create</strong></a> - Add an event</li>
 </ul>
@@ -10,6 +12,7 @@
 ?>
 
 <ul>
+	<?php print($surname["surname"]);?>
 </ul>
 
 

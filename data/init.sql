@@ -1,14 +1,10 @@
-CREATE DATABASE events;
+CREATE DATABASE test;
 
-use events;
+use test;
 
 CREATE TABLE event (
 	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 	name VARCHAR(30) NOT NULL,
-	date DATE NOT NULL,
-	start TIME NOT NULL,
-	end TIME NOT NULL,
-	description MEDIUMTEXT NOT NULL,
-	price INT(3),
-	image VARCHAR(50)
+	surname VARCHAR(30) NOT NULL,
+	passwordd PASSWORD(30) NOT NULL
 );
